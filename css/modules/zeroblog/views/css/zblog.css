@@ -1,0 +1,261 @@
+.zblog #center_column .page-heading {
+  margin: 0 0 20px;
+  padding-bottom: 10px; }
+
+.zblog .page-heading span.heading-counter {
+  margin-bottom: 0; }
+
+.zblog .page-subheading {
+  border: none;
+  margin-bottom: 0; }
+
+.zpost img, .zcategory img {
+  max-width: 100%;
+  height: auto;
+  transition: all 0.3s; }
+
+.zcategory .image {
+  text-align: center;
+  margin-bottom: 20px; }
+
+/* ZPost */
+.zpost {
+  margin-bottom: 20px; }
+  .zpost .zpost-content {
+    overflow: hidden;
+    background: #ffffff;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0px 1px 5px #c7c7c7;
+    -webkit-box-shadow: 0px 1px 5px #c7c7c7;
+    box-shadow: 0px 1px 5px #c7c7c7; }
+  .zpost .zpost-right-content {
+    overflow: hidden;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-bottom: 3%; }
+  .zpost h3, .zpost h5 {
+    margin-top: 15px; }
+  .zpost .name {
+    color: #3d3d3d; }
+    .zpost .name:hover {
+      color: #fd6282; }
+  .zpost .meta {
+    border-bottom: 1px solid #c7c7c7;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-style: italic; }
+    .zpost .meta .separator {
+      color: #c7c7c7;
+      padding: 0 5px;
+      font-style: normal; }
+    .zpost .meta span {
+      display: inline-block; }
+    .zpost .meta span > span {
+      font-weight: 700; }
+  .zpost .image {
+    text-align: center; }
+  .zpost .description {
+    margin-top: 15px; }
+
+/* List Post */
+.post-list {
+  margin-top: 30px; }
+  .post-list .zpost .image {
+    float: left; }
+  .post-list .zpost .read {
+    text-align: right;
+    margin-top: 15px; }
+
+#zblog-category .block_content > ul {
+  margin-bottom: 0; }
+  #zblog-category .block_content > ul > li.last {
+    border-bottom: none; }
+  #zblog-category .block_content > ul ul {
+    margin-left: 20px;
+    margin-top: 5px;
+    border-left: 1px solid #c7c7c7; }
+    #zblog-category .block_content > ul ul ul {
+      margin-left: 0; }
+#zblog-category li {
+  position: relative;
+  padding: 9px 0; }
+  #zblog-category li a {
+    display: block;
+    font-size: 13px; }
+  #zblog-category li a:hover,
+  #zblog-category li a.selected {
+    color: #fd6282; }
+  #zblog-category li li {
+    border-bottom: none;
+    padding: 3px 15px;
+    padding-left: 10px; }
+    #zblog-category li li a {
+      font-weight: normal; }
+#zblog-category > .block_content > ul > li > a {
+  font-size: 14px; }
+  #zblog-category > .block_content > ul > li > a:before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    margin-right: 11px;
+    border: 1px solid #c7c7c7;
+    display: inline-block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%; }
+  #zblog-category > .block_content > ul > li > a:hover:before {
+    border-color: #fd6282;
+    background-color: #fd6282; }
+
+#zblog-archives .block_content ul {
+  margin-bottom: 0; }
+
+.zblog-latest-post .zpost {
+  margin-bottom: 20px; }
+
+.zblog-latest-post .zpost .image {
+  float: left;
+  padding: 0 10px 7px 0; }
+
+.zblog-latest-post .zpost h5 {
+  font-size: 15px;
+  font-weight: normal;
+  margin-bottom: 5px;
+  margin-top: 0; }
+
+.zblog-latest-post .zpost .meta {
+  border: none;
+  text-align: right;
+  font-size: 11px;
+  margin-bottom: 0;
+  padding: 0; }
+
+#zpost {
+  overflow: initial; }
+  #zpost h1 {
+    margin-top: 0; }
+  #zpost .meta {
+    border-width: 2px; }
+  #zpost .short-description {
+    font-weight: 700; }
+
+.zaddthis {
+  margin-bottom: 35px; }
+
+.zpost-related .list-block li {
+  border: none; }
+
+.zproducts-related .comments_note {
+  text-align: center; }
+
+.zproducts-related .comments_note .nb-comments {
+  display: none; }
+
+.zproducts-related .comments_note .star_content {
+  float: none;
+  display: inline-block;
+  margin-bottom: 12px; }
+
+.zcomment-list .page-subheading span.num {
+  display: inline-block; }
+
+.zcomment-form {
+  margin-top: 20px; }
+
+.zcomment-form .page-subheading {
+  margin-top: 0; }
+
+.zcomment-form .alert {
+  padding: 10px; }
+
+.zcomment-form textarea.form-control {
+  height: 100px; }
+
+.zcomment .meta {
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 5px;
+  text-align: right; }
+
+.zcomment .meta .separator {
+  color: #c7c7c7;
+  padding: 0 5px; }
+
+.zcomment .meta span > span {
+  font-weight: 700; }
+
+.zcomment blockquote {
+  padding: 0px 15px; }
+
+.zpost-navigation .next {
+  float: right; }
+
+.zbreadcrumb .container {
+  position: relative; }
+
+a.zrss {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 19px;
+  right: 15px;
+  top: 10px;
+  background-color: #5a9e74;
+  color: #ffffff;
+  border-radius: 50%;
+  z-index: 1; }
+  a.zrss:hover {
+    background-color: #fd6282; }
+
+/* HOME LATEST POSTS */
+.zposts-home .block {
+  margin-bottom: 20px; }
+.zposts-home .post-list {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  margin-top: 0;
+  margin-left: -10px;
+  margin-right: -10px; }
+  @media (max-width: 767px) {
+    .zposts-home .post-list {
+      -webkit-justify-content: center;
+      justify-content: center; } }
+.zposts-home .zpost {
+  width: 50%;
+  padding: 0 10px; }
+  .zposts-home .zpost h5 {
+    margin-bottom: 4px; }
+    .zposts-home .zpost h5 a {
+      font-size: 18px;
+      line-height: 23px; }
+  .zposts-home .zpost .meta {
+    font-size: 12px;
+    margin-bottom: 4px;
+    border-bottom: none; }
+    .zposts-home .zpost .meta:after {
+      content: "";
+      border-bottom: 1px solid #c7c7c7;
+      width: 50px;
+      display: block;
+      padding-top: 10px;
+      overflow: hidden; }
+  .zposts-home .zpost .image {
+    max-width: 49%; }
+    @media (max-width: 991px) {
+      .zposts-home .zpost .image {
+        max-width: none;
+        width: 100%; } }
+  @media (max-width: 767px) {
+    .zposts-home .zpost {
+      width: 100%; } }
+
+.zposts-home-column .view-blog {
+  margin-bottom: 30px; }
+
+/*# sourceMappingURL=zblog.css.map */

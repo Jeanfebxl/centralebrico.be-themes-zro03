@@ -1,0 +1,27 @@
+Guten Tag {firstname} {lastname}, 
+
+
+Ihre Bestellung ist abgeschlossen und kann abgeholt werden!
+
+Vielen Danke für Ihre Bestellung bei {shop_name}. Diese kann nun unter folgender Adresse abgeholt werden.
+
+{address_text}
+
+{pickuptime_text}
+
+Details Ihrer Bestellung:
+
+Bestellnummer: {id_order}
+
+Referenz: {order_reference}
+
+Besteldatum: {order_date}
+
+
+
+
+
+
+
+
+

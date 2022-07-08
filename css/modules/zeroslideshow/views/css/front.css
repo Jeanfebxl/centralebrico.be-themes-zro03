@@ -1,0 +1,11 @@
+.zero-slideshow {
+  margin-bottom: 30px;
+  position: relative; }
+  @media (max-width: 767px) {
+    .zero-slideshow {
+      margin-top: 0; } }
+
+#top_column > .zero-slideshow:first-child {
+  margin-top: -20px; }
+
+/*# sourceMappingURL=front.css.map */

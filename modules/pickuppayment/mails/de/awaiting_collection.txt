@@ -1,0 +1,8 @@
+Hello {firstname} {lastname}, 
+
+Your oorder is in preparation
+
+Your order {order_reference} from {order_date} is in preparation. You will receive an additional email as soon as the order is ready for pickup. 
+
+If you have a guest account, you can follow your order via the "Guest Tracking" section on our shop. 
+{shop_name} powered by PrestaShop™ 

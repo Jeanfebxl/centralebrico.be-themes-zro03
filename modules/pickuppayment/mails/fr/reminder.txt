@@ -1,0 +1,20 @@
+Bonjour {firstname} {lastname}, 
+
+Votre commande peut être ramassé
+
+Merci de votre commande à {shop_name}. S'il vous plaît de ramasser votre commande à l'adresse indiquée
+
+{address_text}
+
+{pickuptime_text}
+
+Détails de votre commande:
+
+numéro de commande: {id_order}
+
+Référence de commande: {order_reference}
+
+Date de la commande: {order_date}
+
+Vous pouvez dès à présent passer commande sur notre boutique : {shop_name} 
+

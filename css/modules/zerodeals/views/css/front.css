@@ -1,0 +1,138 @@
+.zerodeals .block {
+  margin-bottom: 20px; }
+.zerodeals ul.product_list {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap; }
+  @media (max-width: 767px) {
+    .zerodeals ul.product_list {
+      -webkit-justify-content: center;
+      justify-content: center; } }
+  .zerodeals ul.product_list li.ajax_block_product:before, .zerodeals ul.product_list li.ajax_block_product:after {
+    border: none; }
+  .zerodeals ul.product_list li.ajax_block_product:after {
+    left: -1px;
+    border-left: 1px solid #c7c7c7; }
+  .zerodeals ul.product_list .slick-list {
+    padding: 0; }
+.zerodeals ul.product_list.list li.ajax_block_product {
+  width: 50%;
+  float: left; }
+  @media (max-width: 991px) {
+    .zerodeals ul.product_list.list li.ajax_block_product {
+      width: 100%; } }
+  .zerodeals ul.product_list.list li.ajax_block_product .product-container .left-block {
+    width: 50%; }
+    @media (max-width: 767px) {
+      .zerodeals ul.product_list.list li.ajax_block_product .product-container .left-block {
+        width: 100%; } }
+    .zerodeals ul.product_list.list li.ajax_block_product .product-container .left-block .label-box {
+      display: none; }
+    .zerodeals ul.product_list.list li.ajax_block_product .product-container .left-block .product-image-container img {
+      width: 100%; }
+      @media (max-width: 767px) {
+        .zerodeals ul.product_list.list li.ajax_block_product .product-container .left-block .product-image-container img {
+          width: auto; } }
+  .zerodeals ul.product_list.list li.ajax_block_product .product-container .right-block {
+    width: 50%;
+    padding-bottom: 0;
+    position: static; }
+    @media (max-width: 767px) {
+      .zerodeals ul.product_list.list li.ajax_block_product .product-container .right-block {
+        width: 100%; } }
+    .zerodeals ul.product_list.list li.ajax_block_product .product-container .right-block h5 {
+      padding-top: 5px; }
+    .zerodeals ul.product_list.list li.ajax_block_product .product-container .right-block .availability {
+      display: none; }
+    .zerodeals ul.product_list.list li.ajax_block_product .product-container .right-block .functional-buttons {
+      float: none;
+      display: inline-block;
+      line-height: 35px;
+      margin-bottom: 7px; }
+    .zerodeals ul.product_list.list li.ajax_block_product .product-container .right-block .absolute-bottom {
+      position: static;
+      border-top: none;
+      margin: 0; }
+    .zerodeals ul.product_list.list li.ajax_block_product .product-container .right-block .comments_note {
+      top: 12px; }
+    .zerodeals ul.product_list.list li.ajax_block_product .product-container .right-block .button-list {
+      line-height: normal;
+      margin-right: 10px; }
+  .zerodeals ul.product_list.list li.ajax_block_product .product-container .price-percent-reduction {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 8px;
+    font-size: 17px;
+    font-style: normal;
+    text-align: center;
+    -moz-border-radius: 5px 0;
+    -webkit-border-radius: 5px;
+    border-radius: 5px 0; }
+.zerodeals ul.product_list.grid li.ajax_block_product {
+  border-top: 1px solid #c7c7c7;
+  margin-top: -1px; }
+.zerodeals .columns-slick ul.product_list li.ajax_block_product {
+  border-top: none;
+  margin: 0; }
+  .zerodeals .columns-slick ul.product_list li.ajax_block_product:after {
+    border: none; }
+  .zerodeals .columns-slick ul.product_list li.ajax_block_product.slick-active:after {
+    border-left: 1px solid #c7c7c7; }
+.zerodeals .columns-slick.product_list_wrapper {
+  overflow: initial; }
+
+.zcountdown-box {
+  display: none;
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+  clear: both; }
+
+.zerodeals-countdown {
+  background: #fff9dd;
+  padding: 0 15px;
+  line-height: 28px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block; }
+  .zerodeals-countdown span {
+    font-weight: bold;
+    color: #fd6282;
+    font-size: 16px;
+    display: inline-block; }
+
+@media (min-width: 480px) {
+  ul.product_list.list .zerodeals-countdown .countdown-block {
+    padding: 5px 10px 7px; }
+    ul.product_list.list .zerodeals-countdown .countdown-block .value, ul.product_list.list .zerodeals-countdown .countdown-block p {
+      float: left; }
+    ul.product_list.list .zerodeals-countdown .countdown-block p {
+      margin-top: 8px;
+      margin-left: 5px; } }
+
+ul.product_list.grid .zcountdown-box {
+  margin-top: 20px; }
+
+.zerodeals-product {
+  text-align: left; }
+  .zerodeals-product h4 {
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 20px; }
+  @media (min-width: 1200px) {
+    .zerodeals-product .zerodeals-countdown .countdown-block {
+      padding: 5px 10px 7px; }
+      .zerodeals-product .zerodeals-countdown .countdown-block .value {
+        float: left; }
+      .zerodeals-product .zerodeals-countdown .countdown-block p {
+        float: left;
+        margin-top: 8px;
+        margin-left: 5px; } }
+
+/*# sourceMappingURL=front.css.map */

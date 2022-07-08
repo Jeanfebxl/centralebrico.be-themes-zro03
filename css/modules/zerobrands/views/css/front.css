@@ -1,0 +1,22 @@
+.zerobrands .title_block {
+  display: none; }
+.zerobrands .block_content {
+  margin-top: 20px; }
+
+.brand_list_wrapper {
+  margin: -15px; }
+  .brand_list_wrapper .slick-list {
+    padding: 0; }
+  .brand_list_wrapper .slick-prev, .brand_list_wrapper .slick-next {
+    top: 50%;
+    margin-top: -15px;
+    opacity: 0; }
+  .brand_list_wrapper .slick-prev {
+    left: 0;
+    right: auto; }
+  .brand_list_wrapper .slick-next {
+    right: 0; }
+  .brand_list_wrapper:hover .slick-prev, .brand_list_wrapper:hover .slick-next {
+    opacity: 0.5; }
+
+/*# sourceMappingURL=front.css.map */

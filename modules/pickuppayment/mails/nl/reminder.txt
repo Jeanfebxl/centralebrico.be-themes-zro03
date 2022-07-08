@@ -1,0 +1,1 @@
+Hallo {firstname} {lastname},Uw aankoop kan nu afgehaald worden in onze winkel.Gelieve uw aankoop bij {shop_name} af te halen in onze winkel. U kan het adres en de openinguren hieronder vinden.{address_text}{pickuptime_text}Details van uw aankoop:Order ID: {id_order}Order referentie: {order_reference}Datum: {order_date}

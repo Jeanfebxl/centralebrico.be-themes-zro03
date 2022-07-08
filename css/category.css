@@ -1,0 +1,70 @@
+/* ************************************************************************************************
+								Categories Page Styles
+************************************************************************************************ */
+.content_scene_cat {
+  margin-bottom: 26px; }
+  .content_scene_cat .content_scene_cat_bg {
+    padding: 18px 10px 10px 42px;
+    background-color: #464646 !important; }
+    @media (max-width: 1199px) {
+      .content_scene_cat .content_scene_cat_bg {
+        padding: 10px 10px 10px 15px; } }
+  .content_scene_cat span.category-name {
+    font: 600 42px/51px "Roboto", sans-serif;
+    color: #ffffff;
+    margin-bottom: 12px; }
+    @media (max-width: 1199px) {
+      .content_scene_cat span.category-name {
+        font-size: 25px;
+        line-height: 30px; } }
+  .content_scene_cat p {
+    margin-bottom: 0; }
+  .content_scene_cat a {
+    color: #ffffff; }
+    .content_scene_cat a:hover {
+      text-decoration: underline; }
+  .content_scene_cat .content_scene {
+    color: #5d5d5d; }
+    .content_scene_cat .content_scene .cat_desc {
+      padding-top: 20px; }
+      .content_scene_cat .content_scene .cat_desc a {
+        color: #5a9e74; }
+        .content_scene_cat .content_scene .cat_desc a:hover {
+          color: #fd6282; }
+
+.cat_full_desc {
+  margin-bottom: 30px; }
+
+/* ************************************************************************************************
+									Sub Categories Styles
+************************************************************************************************ */
+#subcategories p.subcategory-heading {
+  text-transform: none;
+  margin-bottom: 0; }
+#subcategories ul {
+  margin: 0 0 0 -20px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  #subcategories ul li {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+    margin-top: 20px;
+    text-align: center; }
+    #subcategories ul li .subcategory-image {
+      padding: 0 0 8px 0;
+      transition: all 0.3s; }
+      #subcategories ul li .subcategory-image a {
+        display: block;
+        border: 1px solid #c7c7c7; }
+      #subcategories ul li .subcategory-image:hover img {
+        opacity: 0.7; }
+    #subcategories ul li .cat_desc {
+      display: none; }
+    @media (max-width: 991px) {
+      #subcategories ul li {
+        width: 33.3333333%; } }
+
+/*# sourceMappingURL=category.css.map */

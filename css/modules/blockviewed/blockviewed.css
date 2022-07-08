@@ -1,0 +1,10 @@
+/* Block Viewed Products */
+#viewed-products_block_left .block_content {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+#viewed-products_block_left .thumbnail_small ul.product_base_list.product_sidebar li.sidebar_block_product .right-block {
+  padding-bottom: 0; }
+  #viewed-products_block_left .thumbnail_small ul.product_base_list.product_sidebar li.sidebar_block_product .right-block p {
+    margin: 0; }
+
+/*# sourceMappingURL=blockviewed.css.map */

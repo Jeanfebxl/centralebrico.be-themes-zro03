@@ -1,0 +1,264 @@
+.nivoSlider {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden; }
+  .nivoSlider img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    max-width: none; }
+  .nivoSlider .nivo-main-image {
+    display: block !important;
+    position: relative !important;
+    width: 100% !important; }
+  .nivoSlider a.nivo-imageLink {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 6;
+    display: none;
+    background: white;
+    filter: alpha(opacity=0);
+    opacity: 0; }
+
+.nivo-slice {
+  display: block;
+  position: absolute;
+  z-index: 5;
+  height: 100%;
+  top: 0; }
+
+.nivo-box {
+  display: block;
+  position: absolute;
+  z-index: 5;
+  overflow: hidden; }
+  .nivo-box img {
+    display: block; }
+
+.nivo-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  z-index: 8;
+  overflow: hidden;
+  display: none;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */ }
+  .nivo-caption .caption-table {
+    display: table;
+    margin: auto;
+    height: 100%; }
+  .nivo-caption .caption-cell {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative; }
+  .nivo-caption .caption-bg {
+    padding: 10px 20px;
+    position: relative; }
+  .nivo-caption .slide-link {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    border: none !important; }
+  .nivo-caption h1, .nivo-caption h2, .nivo-caption h3 {
+    margin-bottom: 5%;
+    margin-top: 0;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", sans-serif;
+    letter-spacing: 0.2em;
+    text-shadow: 0px 1px 10px #3d3d3d; }
+    @media (max-width: 767px) {
+      .nivo-caption h1, .nivo-caption h2, .nivo-caption h3 {
+        font-size: 25px; } }
+  .nivo-caption .text {
+    margin-bottom: 8%;
+    line-height: 1.5em;
+    text-shadow: 0px 1px 10px #3d3d3d; }
+    @media (max-width: 767px) {
+      .nivo-caption .text {
+        display: none; } }
+  .nivo-caption p {
+    padding: 5px; }
+  .nivo-caption .btn {
+    font-size: 20px;
+    padding: 10px 20px; }
+    @media (max-width: 767px) {
+      .nivo-caption .btn {
+        font-size: 14px;
+        padding: 0 12px; } }
+
+.nivo-html-caption {
+  display: none; }
+
+.nivo-directionNav a {
+  position: absolute;
+  top: 45%;
+  z-index: 9;
+  cursor: pointer;
+  font-family: FontAwesome;
+  font-size: 0; }
+
+.nivo-prevNav {
+  left: 0px; }
+
+.nivo-nextNav {
+  right: 0px; }
+
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+  text-align: center;
+  padding: 15px 0; }
+  .nivo-controlNav a {
+    color: #fd6282;
+    cursor: pointer;
+    font-family: FontAwesome;
+    font-size: 0;
+    display: inline-block;
+    margin: 0 5px;
+    line-height: 20px;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle; }
+    .nivo-controlNav a:before {
+      content: "\f111";
+      font-size: 13px; }
+    .nivo-controlNav a.active:before {
+      content: "\f10c";
+      font-size: 16px; }
+
+.caption-effect-opacity .nivo-caption {
+  opacity: 0; }
+
+.caption-effect-left .nivo-caption {
+  left: -100%; }
+
+.caption-effect-right .nivo-caption {
+  right: -100%; }
+
+.caption-effect-top .nivo-caption {
+  top: -100%; }
+
+.caption-effect-bottom .nivo-caption {
+  bottom: -100%; }
+
+.theme-default .nivoSlider {
+  position: relative;
+  background: #ffffff url("../img/loading.gif") no-repeat 50% 50%; }
+  .theme-default .nivoSlider img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none; }
+.theme-default .nivo-controlNav {
+  text-align: center;
+  padding: 20px 0;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  z-index: 10; }
+.theme-default .nivo-directionNav a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fd6282;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: 0;
+  opacity: 0;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  .theme-default .nivo-directionNav a:hover {
+    opacity: 1 !important; }
+.theme-default:hover .nivo-directionNav a {
+  opacity: 0.5; }
+.theme-default a.nivo-nextNav {
+  right: 15px; }
+  .theme-default a.nivo-nextNav:before {
+    content: "\f0a9";
+    font-size: 42px; }
+.theme-default a.nivo-prevNav {
+  left: 15px; }
+  .theme-default a.nivo-prevNav:before {
+    content: "\f0a8";
+    font-size: 42px; }
+.theme-default .nivo-controlNav.nivo-thumbs-enabled {
+  width: 100%; }
+  .theme-default .nivo-controlNav.nivo-thumbs-enabled a {
+    width: auto;
+    height: auto; }
+    .theme-default .nivo-controlNav.nivo-thumbs-enabled a:before {
+      font-size: 0;
+      display: none; }
+  .theme-default .nivo-controlNav.nivo-thumbs-enabled img {
+    display: block;
+    height: auto; }
+
+/* related product */
+.slide-products-related {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  background: #ffffff;
+  width: 130px;
+  height: 400px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: none;
+  opacity: 0.8; }
+  .slide-products-related:hover {
+    opacity: 1; }
+  .slide-products-related ul.slide-products {
+    height: 100%;
+    margin: 0; }
+    .slide-products-related ul.slide-products li {
+      height: 50%;
+      position: relative;
+      background-color: #ffffff; }
+      .slide-products-related ul.slide-products li .product-content {
+        position: absolute;
+        top: 0;
+        width: 100%; }
+    .slide-products-related ul.slide-products h5 {
+      margin-bottom: 0;
+      padding: 0 10px; }
+    .slide-products-related ul.slide-products img {
+      display: block;
+      position: initial;
+      margin: auto;
+      max-width: 100%; }
+  @media (max-width: 1199px) {
+    .slide-products-related {
+      display: none !important; } }
+
+/*# sourceMappingURL=nivoslider.css.map */

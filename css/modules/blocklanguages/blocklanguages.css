@@ -1,0 +1,83 @@
+.languages-block-top {
+  background: #ffffff; }
+  .languages-block-top span.firstWord {
+    display: none; }
+  .languages-block-top div.current {
+    line-height: 32px;
+    height: 34px;
+    margin-top: 23px;
+    padding: 0 10px;
+    border: 2px solid;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer; }
+    .languages-block-top div.current .cur-label {
+      line-height: 36px;
+      display: none; }
+    .languages-block-top div.current .cur-name {
+      text-transform: uppercase; }
+    .languages-block-top div.current.active {
+      -moz-border-radius: 3px 3px 0 0;
+      -webkit-border-radius: 3px;
+      border-radius: 3px 3px 0 0; }
+  .languages-block-top img {
+    vertical-align: 0px;
+    margin-right: 4px;
+    display: none; }
+  .languages-block-top ul {
+    text-align: center;
+    margin: 0;
+    line-height: normal;
+    background: #ffffff;
+    display: none;
+    position: absolute;
+    top: 55px;
+    left: 0;
+    right: 0;
+    z-index: 21;
+    border: 2px solid;
+    border-top: none;
+    -moz-border-radius: 0 0 3px 3px;
+    -webkit-border-radius: 0;
+    border-radius: 0 0 3px 3px; }
+    .languages-block-top ul li {
+      display: inline-block;
+      width: 100%; }
+      .languages-block-top ul li a, .languages-block-top ul li > span {
+        display: block;
+        height: 30px;
+        line-height: 30px;
+        text-transform: uppercase;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px; }
+      .languages-block-top ul li.selected {
+        display: none; }
+      .languages-block-top ul li.selected span {
+        background: #5a9e74;
+        color: #ffffff; }
+      .languages-block-top ul li a:hover {
+        background: #f7f7f7; }
+
+.sidebar-language .languages-block-top {
+  padding: 20px 15px;
+  border-top: 1px solid #c7c7c7;
+  border-bottom: 1px solid #c7c7c7; }
+.sidebar-language div.current {
+  display: none; }
+.sidebar-language img {
+  display: none; }
+.sidebar-language ul {
+  position: static;
+  display: block;
+  border: none; }
+  .sidebar-language ul li {
+    width: auto;
+    margin: 0 2px; }
+    .sidebar-language ul li.selected {
+      display: inline-block; }
+    .sidebar-language ul li a, .sidebar-language ul li > span {
+      width: 42px; }
+
+/*# sourceMappingURL=blocklanguages.css.map */

@@ -1,0 +1,8 @@
+.block.myaccount-column .block_content ul {
+  margin-bottom: 0; }
+.block.myaccount-column .list-block li.logout {
+  color: red; }
+  .block.myaccount-column .list-block li.logout a:before {
+    content: "\f08b"; }
+
+/*# sourceMappingURL=blockmyaccount.css.map */

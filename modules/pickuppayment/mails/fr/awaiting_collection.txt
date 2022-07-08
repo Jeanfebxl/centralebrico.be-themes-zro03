@@ -1,0 +1,14 @@
+Ciao {firstname} {lastname}, 
+
+Il tuo ordine è in fase di preparazione
+
+Il vostro ordine {order_reference} da {order_date} è in preparazione. Riceverai una e-mail aggiuntivo non appena l'ordine è pronto per il ritiro. 
+
+If you have a guest account, you can follow your order via the "Guest Tracking" section on our shop. 
+
+{shop_name} powered by PrestaShop™ 
+
+
+
+
+

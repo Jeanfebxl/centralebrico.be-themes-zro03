@@ -1,0 +1,14 @@
+Hello {firstname} {lastname}, 
+
+Uw bestelling is in voorbereiding
+
+Uw bestelling {order_reference} van {order_date} is in voorbereiding. Je zal een extra e-mail zodra de bestelling klaar voor pick-up.
+
+If you have a guest account, you can follow your order via the "Guest Tracking" section on our shop. 
+
+{shop_name} powered by PrestaShop™ 
+
+
+
+
+

@@ -1,0 +1,93 @@
+.currencies-block-content {
+  background: #ffffff; }
+  .currencies-block-content span.firstWord {
+    display: none; }
+  .currencies-block-content div.current {
+    line-height: 32px;
+    height: 34px;
+    margin-top: 23px;
+    padding: 0 10px;
+    border: 2px solid;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer; }
+    .currencies-block-content div.current .cur-label {
+      line-height: 36px;
+      display: none; }
+    .currencies-block-content div.current .cur-name {
+      text-transform: uppercase; }
+    .currencies-block-content div.current.active {
+      -moz-border-radius: 3px 3px 0 0;
+      -webkit-border-radius: 3px;
+      border-radius: 3px 3px 0 0; }
+  .currencies-block-content .sign {
+    display: none; }
+  .currencies-block-content ul {
+    text-align: center;
+    margin: 0;
+    line-height: normal;
+    background: #ffffff;
+    display: none;
+    position: absolute;
+    top: 55px;
+    left: 0;
+    right: 0;
+    z-index: 21;
+    border: 2px solid;
+    border-top: none;
+    -moz-border-radius: 0 0 3px 3px;
+    -webkit-border-radius: 0;
+    border-radius: 0 0 3px 3px; }
+    .currencies-block-content ul li {
+      display: inline-block;
+      width: 100%; }
+      .currencies-block-content ul li a, .currencies-block-content ul li > span {
+        display: block;
+        height: 30px;
+        line-height: 30px;
+        text-transform: uppercase;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px; }
+      .currencies-block-content ul li.selected {
+        display: none; }
+      .currencies-block-content ul li.selected span {
+        background: #5a9e74;
+        color: #ffffff; }
+      .currencies-block-content ul li a:hover {
+        background: #f7f7f7; }
+
+#languages-block-top + #currencies-block-top {
+  margin-right: -12px; }
+  #languages-block-top + #currencies-block-top .currencies-block-content div.current {
+    -moz-border-radius: 3px 0 0 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px 0 0 3px; }
+
+.sidebar-currency {
+  margin-top: -1px; }
+  .sidebar-currency .currencies-block-content {
+    padding: 20px 15px;
+    border-top: 1px solid #c7c7c7;
+    border-bottom: 1px solid #c7c7c7; }
+  .sidebar-currency div.current {
+    display: none; }
+  .sidebar-currency .sign {
+    display: none; }
+  .sidebar-currency ul {
+    position: static;
+    display: block;
+    border: none; }
+    .sidebar-currency ul li {
+      width: auto;
+      margin: 0 2px; }
+      .sidebar-currency ul li.selected {
+        display: inline-block; }
+      .sidebar-currency ul li a, .sidebar-currency ul li > span {
+        width: 42px; }
+
+.nav-sidebar-content #currencies-block-top {
+  border-bottom: none; }
+
+/*# sourceMappingURL=blockcurrencies.css.map */
